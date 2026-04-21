@@ -441,19 +441,17 @@
         border-right: none;
         border-bottom: 1px solid var(--rule);
         flex-direction: row;
-        align-items: flex-start;
-        padding: 1.5rem 1.5rem 1rem;
-        gap: 1rem;
-        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.2rem 1.5rem;
+        gap: 0;
       }
 
-      .nav-sub { margin-bottom: 0; }
-      .nav-brand { margin-bottom: 0; }
+      .nav-sub { display: none; }
+      .nav-brand { margin-bottom: 0; font-size: 0.82rem; }
       .nav-cta { margin-top: 0; }
 
-      nav ul { flex-direction: row; gap: 0.1rem; flex-wrap: wrap; }
-      nav ul li a::before { display: none; }
-      nav ul li a { padding: 0.3rem 0.5rem; letter-spacing: 0.07em; }
+      nav ul { display: none; }
 
       body { flex-direction: column; }
       main { margin-left: 0; }
